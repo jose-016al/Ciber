@@ -1,54 +1,9 @@
 
 # Ciberseguridad
 
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    body {
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    h1 {
-        margin-bottom: 20px;
-    }
-    #horario, ul {
-        font-size: 20px;
-    }
-    #horario {
-        text-align: center;
-        border-collapse: collapse;
-        margin-bottom: 20px;
-    }
-    #horario th, td {
-        border: 1px solid black;
-        padding: 10px;
-    }
-    .pps {
-        background-color: #FFC0CB;
-    }
-    .afi {
-        background-color: #AEC6CF;
-    }
-    .ic {
-        background-color: #B2DFDB;
-    }
-    .nc {
-        background-color: #FFFF99;
-    }
-    .brs {
-        background-color: #E6E6FA;
-    }
-    .he {
-        background-color: #FFDAB9;
-    }
-</style>
 
-<table id="horario">
+
+<table style="text-align: center; border-collapse: collapse; margin-bottom: 20px;">
     <tr>
         <th></th>
         <th>Lunes</th>
