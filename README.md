@@ -1,7 +1,4 @@
-
 # Ciberseguridad
-
-
 
 <table align="center">
     <tr align="center">
@@ -14,7 +11,7 @@
     </tr>
     <tr align="center">
         <th>16:55 - 17:50</tdd>
-        <td rowspan="2" class="pps">PPS</td>
+        <td rowspan="2" style="background-color: lightblue;">PPS</td>
         <td rowspan="2" class="afi">AFI</td>
         <td rowspan="3" class="ic">IC</th>
         <td rowspan="2" class="afi">AFI</td>
