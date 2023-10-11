@@ -11,18 +11,28 @@ echo -n texto | sha256sum
 ```
 Para descifrar una cadena de texto podemos usar [CrackStation](https://crackstation.net/)
 
-# Decodificar fichero en base64
+# base64
+Decodificar fichero en base64
 ```bash
 base64 -d base64-c6d8efd649ad94af23eb2bd2af63edd0.txt
 ```
+Decodificar una cadena en base64
+```bash
+echo "UGFzc3dvcmQ6IHhvFzYMACEfBiAgIA==" | base64 -d
+```
 
-# Decodificar una cadena en hexadecimal
+# Hexadecimal
+Para codificar una cadena a hexadecimal
+```bash
+echo -n "Hola mundo" | xxd -p 
+```
+Para decodificar una cadena en hexadecimal
 ```bash
 echo 50617373776f72643a2044346d7054686548337821 | xxd -r -p
 ```
-```bash
 
-```
+# XOR
+
 ```bash
 
 ```
