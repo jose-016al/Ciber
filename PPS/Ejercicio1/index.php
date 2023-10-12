@@ -1,28 +1,22 @@
+<?php require_once("error_config.php"); ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 1</title>
-    <style>
-        body {
-            display: grid;
-            place-items: center;
-            min-height: 100vh;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div>
+        <h1>Introduce tu nombre</h1><br />
         <form method="POST">
-            <label>Introduce tu nombre</label><br />
             <input type="text" name="name" />
             <input type="submit" value="Enviar" />
         </form>
         <?php 
             $name = isset($_POST["name"]) ? $_POST["name"] : "";
-            echo $name ? "<h1>Hola $name</h1>" : "";
+            echo $name ? "<h2>Hola $name</h1>" : "";
         ?>
     </div>
 </body>

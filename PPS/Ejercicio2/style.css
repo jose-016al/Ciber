@@ -1,0 +1,13 @@
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+.tables {
+    display: flex;
+}
+.tables div {
+    margin: 20px;
+    padding: 10px;
+}

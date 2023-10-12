@@ -1,25 +1,12 @@
+<?php require_once("error_config.php"); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 2</title>
-    <style>
-        body {
-            display: grid;
-            place-items: center;
-            min-height: 100vh;
-            text-align: center;
-        }
-        .tables {
-            display: flex;
-        }
-        .tables div {
-            margin: 20px;
-            padding: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
