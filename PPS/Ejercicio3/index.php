@@ -16,8 +16,12 @@
 <body>
     <div>
         <?php 
-            $date = date('j \d\e F \d\e Y');
-            echo "<h1>Hoy es dia $date</h1>";
+            $day = date('j');
+            $monthNumber = idate('m');
+            $year = date('Y');
+            $months = array ("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setptiembre", "Octubre", "Noviembre", "Diciembre");
+            $monthName = $months[$monthNumber - 1];
+            echo "<h1>Hoy es dia $day de $monthName de $year</h1>";
         ?>
     </div>
 </body>
