@@ -30,48 +30,23 @@ Para decodificar una cadena en hexadecimal
 ```bash
 echo 50617373776f72643a2044346d7054686548337821 | xxd -r -p
 ```
-
-# XOR
-
+Para mostrar el contenido de un fichero en hexadecimal
 ```bash
-
+xxd magicNumber | less
 ```
-```bash
 
+# Strings
+Podemos encontrar cadenas de strings, como una url a la que se intenta conectar un ejecutable
+```bash
+strings fichero
 ```
-```bash
 
+# Metadatos
+Podemos ver los metadatos que tiene un fichero pdf
+```bash
+pdfinfo fichero
 ```
+Para ver los metadatos de una imagen, usaremos un programa llamado exiftool
 ```bash
-
-```
-```bash
-
-```
-```bash
-
-```
-```bash
-
-```
-```bash
-
-```
-```bash
-
-```
-```bash
-
-```
-```bash
-
-```
-```bash
-
-```
-```bash
-
-```
-```bash
-
+exiftool imagen
 ```
