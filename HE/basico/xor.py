@@ -8,6 +8,7 @@ clave = "encryptXORkey"
 
 # Decodificar el mensaje de base64
 mensaje_bytes = base64.b64decode(mensaje_base64)
+print(mensaje_bytes);
 
 # Realizar la operación XOR
 mensaje_descifrado = ""
@@ -25,4 +26,4 @@ for i in range(len(mensaje_bytes)):
     mensaje_descifrado += chr(byte_descifrado)
 
 # Imprimir el mensaje descifrado
-print(mensaje_descifrado)
+""" print(mensaje_descifrado) """
