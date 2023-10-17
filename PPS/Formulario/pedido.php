@@ -1,9 +1,11 @@
+<?php require_once("error_config.php"); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedido</title>
+    <link rel="stylesheet" href="style.css">
     <?php
         $numid = time();
         $name = isset($_POST['name']) ? $_POST['name'] : "";
@@ -16,7 +18,7 @@
     ?>
 </head>
 <body>
-    <div>
+    <div class="order">
         <h1>Detalles del pedido</h1>
         <?php
             echo "<p>Numero de pedido: $numid</p>";
