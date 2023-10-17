@@ -24,7 +24,7 @@
             echo "<p>Numero de pedido: $numid</p>";
             echo "<p>Nombre del cliente: $name</p>";
             echo "<p>Modelo: $model</p>";
-            if (count($extras) >= 1) {
+            if ($extras && count($extras) >= 1) {
                 echo "<p>Extras: </p>";
                 echo "<ul>";
                 foreach ($extras as $extra) {
@@ -33,7 +33,9 @@
                 echo "</ul>";
             }
             echo "<p>La contraseña del candado: $password</p>";
-            echo "<p>Observaciones: $obs</p>";
+            if ($obs) {
+                echo "<p>Observaciones: $obs</p>";
+            }
         ?>
     </div>
 </body>

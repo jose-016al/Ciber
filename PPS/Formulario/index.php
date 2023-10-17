@@ -14,7 +14,7 @@
         <h1>Formulario</h1>
         <form action="./pedido.php" method="post">
             <div class="form-group">
-                <input type="text" name="name" placeholder="&nbsp;">
+                <input type="text" name="name" required placeholder="&nbsp;">
                 <label class="floating" for="name">Nombre</label>
             </div>
             <div class="form-group">
@@ -40,7 +40,7 @@
                 </div>
             </div>
             <div class="form-group">
-                <input type="password" name="password" placeholder="&nbsp;">
+                <input type="password" name="password" required placeholder="&nbsp;">
                 <label class="floating" for="password">Contraseña</label>
             </div>
             <div class="form-group">
