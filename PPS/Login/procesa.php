@@ -24,7 +24,7 @@
             $_SESSION['user'] = $datos;
             header("location:menu.php");
         } else {
-            echo '<h2>Usuario o contraseña incorrectas</h2>';
+            header("location: index.php?error=incorrect");
         }
     }
 ?>
