@@ -1,9 +1,8 @@
 <?php
     session_start();
-    
     require_once("error_config.php");
 
-    if(isset($_SESSION['user'])) {
+    if (isset($_SESSION['user'])) {
         header("location:menu.php");
     } else {
         header("location:index.php");
