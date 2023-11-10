@@ -4,12 +4,11 @@
 
     if (isset($_SESSION['user'])) {
         header("location:menu.php");
-    } else {
-        header("location:index.php");
-    }
+    } 
 
-    $user = $_POST['user'];
-    $password = md5($_POST['password']);
+    /* $user = $_POST['user']; */
+    $user = "999' OR '1'='1' #";
+    $password = $_POST['password'];
 
     require_once("db.php");
     $bd = Conectar::conexion();
@@ -23,7 +22,7 @@
             $_SESSION['user'] = $datos;
             header("location:menu.php");
         } else {
-            header("location: index.php?error=incorrect");
+            echo "<h1>Login incorrecto</h1>";
         }
     }
 ?>

@@ -7,16 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="./assets/style.css">
-    <script>
-        // Verificar si hay un parámetro de error en la URL
-        const urlParams = new URLSearchParams(window.location.search);
-        const error = urlParams.get('error');
-
-        // Mostrar una alerta si el parámetro de error es "incorrect"
-        if (error === 'incorrect') {
-            alert("Usuario o contraseña incorrecta");
-        }
-    </script>
     <?php
     session_start();
     if (isset($_SESSION['user'])) {
