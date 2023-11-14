@@ -19,7 +19,7 @@
     $datos = $results->fetch_assoc(); 
 
     if (isset($user) && isset($password)) {
-        if ($user == $datos['user'] && $password == $datos['password']) {
+        if ($datos) {
             $_SESSION['user'] = $datos;
             header("location:menu.php");
         } else {
