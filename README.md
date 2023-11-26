@@ -48,3 +48,9 @@
         <li><strong>PPS</strong> - <i>Puesta en Producción Segura</i></li>
     </ul>
 </div>
+
+# Enlaces 
+- **[Atenea CCN-Cert](https://atenea.ccn-cert.cni.es/home)**
+- **[Incibe](https://www.incibe.es/ed2026/talento-hacker/academia-hacker/retosdescargables)**
+- **[HackTheBox](https://academy.hackthebox.com/dashboard)**
+- **[PortSwiger](https://portswigger.net/)**
