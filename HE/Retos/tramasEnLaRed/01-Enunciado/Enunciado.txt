@@ -1,1 +1,0 @@
-Se ha obtenido una la captura de tráfico donde se ha producido una conexión remota entre dos equipos. Encuentra las credenciales utilizadas en dicha conexión.
